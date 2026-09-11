@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <section className="wrap section page-hero"><p className="eyebrow">404 · VI HJÄLPER DIG VIDARE</p><h1>Den här sidan finns inte.</h1><p className="lead">Kanske har länken ändrats eller så stavades adressen fel. Här är några sidor som kan hjälpa dig vidare.</p><div className="hero-actions">{[['/','Startsidan'],['/tjanster/','Våra tjänster'],['/kundcase/','Kundcase'],['/kontakt/','Kontakt']].map(([href,label])=><Link className="button" href={href} key={href}>{label} ↗</Link>)}</div></section>}

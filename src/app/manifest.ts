@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function manifest():MetadataRoute.Manifest{return {name:'M-Anbud Konsult AB',short_name:'M-Anbud',description:'Hjälp att vinna kommunala ramavtal',start_url:'/',display:'standalone',background_color:'#ffffff',theme_color:'#ff8f00',lang:'sv',icons:[{src:'/icon.svg',sizes:'any',type:'image/svg+xml'}]}}
